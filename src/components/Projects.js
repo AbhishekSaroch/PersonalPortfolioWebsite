@@ -39,7 +39,7 @@ import {AiFillDownCircle} from "react-icons/ai"
           <div key={index} className="gap-y-3 flex flex-col justify-center items-center">
             <img
               src={project.img}
-              className=" flex items-center justify-center h-[350px] w-[400px] rounded-lg mx-auto "
+              className=" flex items-center justify-center h-[350px] w-[400px] rounded-lg mx-auto " alt="project-photo"
             ></img>
             <p className="text-xl text-center font-bold gap-3">{project.desc}</p>
             <p className="text-center">

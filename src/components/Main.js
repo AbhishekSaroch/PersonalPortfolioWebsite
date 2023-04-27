@@ -50,7 +50,7 @@ const Main = () => {
           </a>
         </div>
         <div>
-          <img  src={main} className="lg:h-[350px] sm:h-[300px] w-[450px] rounded-lg"></img>
+          <img  src={main} className="lg:h-[350px] sm:h-[300px] w-[450 px] rounded-lg" alt="main-photo"></img>
         </div>
       </div>
     </section>
