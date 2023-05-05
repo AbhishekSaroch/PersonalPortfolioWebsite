@@ -1,7 +1,6 @@
 import React from "react";
 import {
   SiJavascript,
-  SiTypescript,
   SiTailwindcss,
   SiExpress,
 } from "react-icons/si";

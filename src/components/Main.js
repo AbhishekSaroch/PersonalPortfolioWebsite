@@ -3,7 +3,6 @@ import { AiFillGithub, AiFillInstagram} from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 import main from "../images/main.jpg"
 const Main = () => {
-  const image="C:\Users\abhis\OneDrive\Documents\React-Projects\PersonalPortfolio\personalportfoliowebsite\images\cartoon1.jpg"
   return (
     <section className="bg-slate-300 px-5 text-white py-32" id="main">
       <div className="container grid md:grid-cols-2 items-center justify-center md:justify-between">
@@ -21,6 +20,7 @@ const Main = () => {
             <a
               href="https://github.com/AbhishekSaroch"
               target="_blank"
+              rel="noreferrer"
               className="pr-4 inline-block text-accent hover:text-red-700"
             >
               {" "}
@@ -28,6 +28,7 @@ const Main = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/abhishek-sharma-34ab24237/" target="_blank"
+              rel="noreferrer"
               className="pr-4 inline-block text-accent hover:text-red-700"
             >
               {" "}
@@ -35,6 +36,7 @@ const Main = () => {
             </a>
             <a
               href="https://www.instagram.com/abhishek_sharma.0026/" target="_blank"
+              rel="noreferrer"
               className="pr-4 inline-block text-accent hover:text-red-700"
             >
               {" "}
@@ -50,7 +52,7 @@ const Main = () => {
           </a>
         </div>
         <div>
-          <img  src={main} className="lg:h-[350px] sm:h-[300px] w-[450 px] rounded-lg" alt="main-photo"></img>
+          <img  src={main} className="lg:h-[350px] sm:h-[300px] w-[450 px] rounded-lg" alt="mypicccc"></img>
         </div>
       </div>
     </section>
